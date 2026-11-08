@@ -1,0 +1,13 @@
+{
+    "enabled": false,
+    "autoPush": false,
+    "pushWhenNoSignal": false,
+    "host": "smtp.qq.com",
+    "port": 465,
+    "implicitSsl": true,
+    "username": "",
+    "fromName": "做多量化选股系统",
+    "recipients": [],
+    "timeoutMs": 20000,
+    "subjectPrefix": "[做多量化]"
+}

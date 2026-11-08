@@ -1,0 +1,44 @@
+# ---- 构建产物 ----
+build/
+dist/
+DabanQuant_v*.zip
+out/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.d
+*.ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# ---- IDE / 语言服务缓存 ----
+.cache/
+
+# ---- 运行期数据 ----
+notify_config.json
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.dmp
+build_log.txt
+selftest_out.txt
+
+# ---- 冒烟测试产物（截图 / 报告，属本地验证结果，不入库） ----
+*smoke_report.txt
+*smoke*.png
+
+# ---- IDE / 系统 ----
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+# 本机 clangd 配置（含绝对路径，不具备跨机器可移植性）
+.clangd
